@@ -1,7 +1,11 @@
+
+import DestinationContainer from "./DestinationContainer.jsx"
+
 function App() {
   return (
     <div>
-      {/* Your code here */}
+     <h1 style={{textAlign: "center"}}>Top Travel Destinations</h1>
+      <DestinationContainer/>
     </div>
   )
 }
